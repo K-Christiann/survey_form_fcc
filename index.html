@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Training/Workshop Survey</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Training/Workshop Survey</h1>
+    <p id="description">Welcome the training/workshop service, i'd like to ask for your cooperation for this survey. We appreciate your cooperation and God bless!</p>
+<form id ="survey-form" class ="s-form" method="post">
+<div class ="form-container">
+<label for ="name" id="name-label">Enter your first name:</label>
+<input type="text" id="name" placeholder ="Enter your name." name="first-name" required>
+</div>
+<div class ="form-container">
+<label for ="email" id="email-label">Enter your email:</label>
+<input type="email" id="email" placeholder ="Enter your email." name="email" required>
+</div>
+<div class ="form-container">
+<label for ="age" id="number-label">Enter your Age:</label>
+<input type="number" id="number" placeholder ="Enter your Age." name="Age" min="10" max="100" required>
+</div>
+
+<div class ="form-container">
+<p>What strand are you in?</p>
+<select id="dropdown">
+  <option>GAS</option>
+   <option>STEM</option>
+    <option>HUMSS</option>
+     <option>TVL</option>
+</select>
+</div>
+<fieldset>
+  <label for="invite">Will you invite your classmates to this training/workshop?</label>
+  <input type="radio" id="yes" value ="invite" name="invite">YES
+  <input type="radio" id="yes" value ="invite" name="invite"> NO
+</fieldset>
+<div class ="form-container">
+<p>What are the things that you need?</p>
+<label for ="needs">Arduino
+<input type ="checkbox" id="participant-needs" value ="needs" name="needs"></label>
+<label for ="needs">Electrical Components
+<input type ="checkbox" id="participant-needs" value ="needs" name="needs"></label>
+<label for ="needs">Laptop
+<input type ="checkbox" id="participant-needs" value ="needs" name="needs"></label>
+</div>
+<div class="form-container">
+<label for="comment">If you need to ask a question, just comment here:</label>
+<textarea id="comment" name="comment" placeholder="Write your comment here..." rows="4" required></textarea>
+      </div>
+
+<input type ="submit" id="submit" name="submit" value="Submit"></label>
+</form>
+  </body>
+
