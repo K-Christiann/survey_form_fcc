@@ -1,16 +1,15 @@
 # Training/Workshop Survey
-Project Overview
-This is a front-end web project featuring a survey form designed to collect participant details for a training/workshop event. It includes fields for personal information, event preferences, and material requirements.
 
-Key Features
-User-friendly form for inputting name, email, age, and educational strand.
-Dropdown menu for selecting educational strand (e.g., GAS, STEM, HUMSS, TVL).
-Radio buttons to indicate if participants would invite classmates.
-Checkboxes for selecting needed materials (e.g., Arduino, Laptop).
-Text area for comments or additional questions.
-Technologies Used
-HTML for structure
-CSS for styling and layout
-How to Run
-Clone the repository.
-Open index.html in a browser to view and interact with the form.
+## Project Overview
+This is a simple front-end web project designed to collect participant details for a training/workshop event. The survey form includes essential fields like personal information, event preferences, and material requirements, offering a clean and intuitive interface for users.
+
+## Key Features
+- **Personal Information**: Fields for entering name, email, and age.
+- **Educational Strand Selection**: Dropdown menu for selecting educational strand (e.g., GAS, STEM, HUMSS, TVL).
+- **Event Participation**: Radio buttons to indicate whether the participant would invite their classmates.
+- **Material Requirements**: Checkboxes for selecting materials (e.g., Arduino, Laptop).
+- **Comment Section**: Text area for participants to ask questions or leave additional comments.
+
+## Technologies Used
+- **HTML**: To structure the form elements and content.
+- **CSS**: For styling the form and page layout, including the background image and form responsiveness.
